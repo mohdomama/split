@@ -6,7 +6,7 @@
 char* input(){
 	int i;
 	char c;
-	char* input_string;
+	char* input_string=(char*)malloc(sizeof(char)*1);
 	
 	printf("Enter Something:\n");
 	c=getchar();
